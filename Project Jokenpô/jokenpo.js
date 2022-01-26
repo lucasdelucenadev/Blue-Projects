@@ -1,3 +1,5 @@
+var prompt = require('prompt-sync')();
+
 function valinput(str) {
     // A função validará o input do usuário
     // O retorno será o indice do input do usuário na lista
