@@ -1,4 +1,4 @@
-const prompt = require("prompt-sync")();
+var prompt = require("prompt-sync")();
 let jogadores = [];
 let rodadas = prompt("Digite a quantidade de rodadas que deseja jogar: ");
 let jog = prompt("Digite o numero de jogadores: ");
